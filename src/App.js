@@ -4,6 +4,7 @@ import './App.css';
 
 //Components
 import Navbar from './components/Navbar';
+import Card from './components/Card';
 
 //Pages
 import Stories from './pages/Stories'
@@ -16,6 +17,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <Navbar />
+      <Card />
       <Routes>
           <Route path="/" element={<Stories />} />
           <Route path="/Features" element={<Features />} />
