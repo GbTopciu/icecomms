@@ -18,7 +18,6 @@ function App() {
       <BrowserRouter>
       <Navbar />
       <CardsList />
-      <CardsList />
       <Routes>
           <Route path="/" element={<Stories />} />
           <Route path="/Features" element={<Features />} />
