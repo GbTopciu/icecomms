@@ -6,12 +6,12 @@ const Card = ({ title, description, image, button }) => {
     //First Card
     <div className="w-full md:h-700 flex overflow-hidden space-x-0 space-y-0 ">
       <div className="flex flex-col md:flex md:flex-row w-screen">
-        <div className="order-last md:order-first  md:w-11/12 bg-black py-10 px-5 md:py-15 md:px-10 lg:py-40 lg:px-30">
-          <h2 className="uppercase text-white font-semibold text-5xl tracking-wide pb-5">
+        <div className="order-last md:order-first  md:w-11/12 bg-white hover:bg-black hover:text-white py-10 px-5 md:py-15 md:px-10 lg:py-40 lg:px-30">
+          <h2 className="uppercase font-semibold text-5xl tracking-wide pb-5">
             {title}
           </h2>
-          <p className="text-gray-300 pb-5">{description}</p>
-          <button className="text-white flex justify-center items-center">
+          <p className="pb-5">{description}</p>
+          <button className="justify-center items-center">
             {button}
             <ArrowNarrowRightIcon className="h-6" />
           </button>
