@@ -27,3 +27,34 @@ export const Data = [
       "https://ice-nas.fra1.digitaloceanspaces.com/development/play/banner3.jpg",
   },
 ];
+
+export const Datasm = [
+  {
+    id: 1,
+    title: "The Mountains",
+    artist: "John AppleSeed",
+    image:
+      "https://ice-nas.fra1.digitaloceanspaces.com/development/play/mountains.jpg",
+  },
+  {
+    id: 2,
+    title: "Sunset Cityscapes",
+    artist: "Benjamin Cruz",
+    image:
+      "https://ice-nas.fra1.digitaloceanspaces.com/development/play/cityscape.jpg",
+  },
+  {
+    id: 3,
+    title: "18 Days Voyage",
+    artist: "Alexei Borodin",
+    image:
+      "https://ice-nas.fra1.digitaloceanspaces.com/development/play/hiker.jpg",
+  },
+  {
+    id: 4,
+    title: "Architecturals",
+    artist: "Samantha Brooke",
+    image:
+      "https://ice-nas.fra1.digitaloceanspaces.com/development/play/building.jpg",
+  },
+];

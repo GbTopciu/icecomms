@@ -14,17 +14,17 @@ import CardsList from "./components/CardsList";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <BrowserRouter>
       <Navbar />
       <CardsList />
       <Routes>
-          <Route path="/" element={<Stories />} />
+          <Route path="/Stories" element={<Stories />} />
           <Route path="/Features" element={<Features />} />
           <Route path="/Pricing" element={<Pricing />} />
         </Routes>
       </BrowserRouter>
-    </div>
+    </>
   );
 }
 

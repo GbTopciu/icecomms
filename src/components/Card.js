@@ -4,9 +4,9 @@ import { ArrowNarrowRightIcon } from "@heroicons/react/solid";
 const Card = ({ title, description, image, button }) => {
   return (
     //First Card
-    <div className="h-screen md:h-700 flex overflow-hidden space-x-0 space-y-0 ">
+    <div className="w-full md:h-700 flex overflow-hidden space-x-0 space-y-0 ">
       <div className="flex flex-col md:flex md:flex-row w-screen">
-        <div className="order-last md:order-first  md:w-11/12 bg-black py-10 px-5 md:py-15 md:px-10 lg:py-40 lg:px-30 border-2">
+        <div className="order-last md:order-first  md:w-11/12 bg-black py-10 px-5 md:py-15 md:px-10 lg:py-40 lg:px-30">
           <h2 className="uppercase text-white font-semibold text-5xl tracking-wide pb-5">
             {title}
           </h2>
