@@ -7,7 +7,7 @@ const FooterNav = () => {
   return (
     <div className="flex flex-col md:flex md:flex-row justify-center items-center md:justify-evenly h-full md:h-72 bg-black">
       <div className="flex flex-col md:flex md:flex-row">
-        <div className="flex flex-col md:flex md:flex-col md:items-center justify-center md:pr-10">
+        <div className="flex flex-col md:flex md:flex-col md:items-center justify-center md:pr-10 md:pt-5">
           <img
             className="order-1 mb-11 py-9"
             src="https://ice-nas.fra1.digitaloceanspaces.com/development/play/logo-white.svg"
