@@ -84,7 +84,7 @@ const FooterNav = () => {
           </Link>
         </div>
       </div>
-      <div className="flex flex-col  md:justify-evenly md:items-end py-9">
+      <div className="flex flex-col md:justify-evenly md:items-end py-9">
         <button className="order-4 text-white uppercase flex justify-center items-center md:mb-10">
           Get An Invite
           <ArrowNarrowRightIcon className="h-6 pl-2" />

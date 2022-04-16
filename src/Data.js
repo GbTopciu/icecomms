@@ -1,5 +1,3 @@
-import { ReactComponent as ResponsiveLogo } from "./assets/logo.svg";
-
 export const Data = [
   {
     id: 1,
