@@ -10,6 +10,7 @@ import Stories from './pages/Stories'
 import Pricing from './pages/Pricing'
 import Features from './pages/Features'
 import CardsList from "./components/CardsList";
+import FooterNav from "./components/FooterNav";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <BrowserRouter>
       <Navbar />
       <CardsList />
+      <FooterNav />
       <Routes>
           <Route path="/Stories" element={<Stories />} />
           <Route path="/Features" element={<Features />} />
