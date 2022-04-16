@@ -1,3 +1,5 @@
+import { ReactComponent as ResponsiveLogo } from "./assets/logo.svg";
+
 export const Data = [
   {
     id: 1,
@@ -56,5 +58,32 @@ export const Datasm = [
     artist: "Samantha Brooke",
     image:
       "https://ice-nas.fra1.digitaloceanspaces.com/development/play/building.jpg",
+  },
+];
+
+export const Dataft = [
+  {
+    id: 1,
+    title: "100% Responsive",
+    description:
+      "No matter which the device you're on, our site is fully responsive and stories look beautiful on any screen.",
+    image:
+      "https://ice-nas.fra1.digitaloceanspaces.com/development/play/responsive.svg",
+  },
+  {
+    id: 2,
+    title: "No Photo Upload Limit",
+    description:
+      "Our tool has no limits on uploads or bandwidth.\n Freely upload in bulk and share all of your stories in one go",
+    image:
+      "https://ice-nas.fra1.digitaloceanspaces.com/development/play/infinity.svg",
+  },
+  {
+    id: 3,
+    title: "Available to Embed",
+    description:
+      "Embed Tweets, Facebook posts, Instagram media, Vimeo or Youtube videos, Google Maps, and more.",
+    image:
+      "https://ice-nas.fra1.digitaloceanspaces.com/development/play/social.svg",
   },
 ];
