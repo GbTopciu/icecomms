@@ -76,12 +76,6 @@ const FooterNav = () => {
           >
             Pricing
           </Link>
-          <Link
-            to="Stories"
-            className="uppercase mx-5 font-medium text-white text-sm"
-          >
-            Stories
-          </Link>
         </div>
       </div>
       <div className="flex flex-col md:justify-evenly md:items-end py-9">
